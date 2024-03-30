@@ -1,6 +1,8 @@
+
 # 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
 def imprimir_nombre():
-    print("Javier Eduardor Jordan")
+#    print("Javier Eduardor Jordan")
+    print("Diego F. Tandazo Yaguachi")
 
 if __name__ == "__main__":
     imprimir_nombre()
@@ -12,18 +14,18 @@ def suma_1_al_10():
 
 if __name__ == "__main__":
     resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
-    print ("el resultado es " , resultado)
+    print ("El resultado es " , resultado)
 
 # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
 def imprimir_datos_personales(nombre, edad, estatura):
-    print("Nombre:",nombre,"\nEdad:",edad , "\nEstatura:",estatura)
+    print("Nombre:", nombre,"\nEdad:", edad,"\nEstatura:",estatura)
 
 if __name__ == "__main__":
     # Se definen las variables con los datos personales
-    nombre = "Javier"
-    edad = 30
-    estatura = 1.75
-    imprimir_datos_personales(nombre, edad, estatura)
+    nombre="Diego"
+    edad=32
+    estatura=1.69
+    imprimir_datos_personales(nombre,edad,estatura)
 
 # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
 def par_o_impar(numero):
@@ -61,7 +63,7 @@ import math
 
 def area_circulo(radio):
     area = math.pi * radio ** 2  # Se calcula el área del círculo utilizando la fórmula matemática
-    # Se devuelve el área calculada
+    return area # Se devuelve el área calculada
 
 if __name__ == "__main__":
     radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
